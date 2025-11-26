@@ -1,0 +1,84 @@
+.account-bg {
+  background-color: #ffffff;
+  color: #080808;
+  padding: 75px;
+  padding-left: 164px;
+  padding-right: 164px;
+  height: 70vh;
+}
+
+.logout-btn {
+  border: 1px solid #df2020;
+  background-color: red;
+  color: #fbf9f9;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+  justify-content: center;
+}
+
+.account-heading {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.account-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(96, 102, 110);
+  margin: 0px;
+  padding-right: 25px;
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 12px;
+}
+
+.span-p {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 0px;
+  margin-top: 3px;
+}
+
+.value {
+  font-size: 18px;
+  margin: 0px;
+  color: rgba(30, 41, 59, 1);
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .account-bg {
+    padding: 20px 15px;
+  }
+
+  .account-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .label {
+    margin-bottom: 4px;
+  }
+}

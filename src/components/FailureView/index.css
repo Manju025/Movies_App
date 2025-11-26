@@ -1,0 +1,35 @@
+.failure-view {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.failure-img {
+  width: 280px;
+  max-width: 80%;
+  margin-bottom: 15px;
+}
+
+.failure-title {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.failure-desc {
+  font-size: 14px;
+  color: #e5e5e5;
+  margin-bottom: 12px;
+}
+
+.failure-btn {
+  padding: 8px 18px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}

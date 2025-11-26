@@ -1,0 +1,45 @@
+.popular-bg {
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 20px 30px 30px 30px;
+}
+
+.popular-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.popular-item {
+  width: 160px;
+}
+
+.popular-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .popular-bg {
+    padding: 20px 20px 30px 20px;
+  }
+
+  .popular-item {
+    width: 140px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .popular-bg {
+    padding: 15px;
+  }
+
+  .popular-item {
+    width: 45%;
+  }
+}
