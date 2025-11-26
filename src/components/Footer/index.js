@@ -1,5 +1,5 @@
 import { FaGoogle, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom;
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
