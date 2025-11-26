@@ -1,21 +1,26 @@
-import { FaGoogle, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaGoogle, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom;
+
 import "./index.css";
 
 const Footer = () => (
   <footer className="footer">
     <div className="footer-icons">
-      <span className="icon-btn">
+      <Link to="manjundhar1701@gmail.com" className="icon-btn">
         <FaGoogle />
-      </span>
-      <span className="icon-btn">
+      </Link>
+      <Link to="https://x.com/ManjundharM" className="icon-btn">
         <FaTwitter />
-      </span>
-      <span className="icon-btn">
+      </Link>
+      <Link to="https://www.instagram.com/_manju.smartz0_/#" className="icon-btn">
         <FaInstagram />
-      </span>
-      <span className="icon-btn">
-        <FaYoutube />
-      </span>
+      </Link>
+      <Link to="https://www.linkedin.com/in/manjundhar-adagiri/"  className="icon-btn">
+        <FaLinkedin />
+      </Link>
+      <Link to="https://github.com/Manju025" className="icon-btn">
+        <FaGithub />
+      </Link>
     </div>
     <p className="footer-text">Contact us</p>
   </footer>
